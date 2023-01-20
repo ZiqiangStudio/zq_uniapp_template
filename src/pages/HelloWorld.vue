@@ -9,16 +9,10 @@
   </view>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      title: 'Hello',
-    };
-  },
-  onLoad() {},
-  methods: {},
-};
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const title = ref('Hello');
 </script>
 
 <style>
