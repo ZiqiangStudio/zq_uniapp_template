@@ -17,7 +17,7 @@
     "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
     "skipLibCheck": true,
     "noUnusedLocals": true,
-    "types": ["node_modules/@types", "@dcloudio/types", "@uni-helper/uni-app-types"],
+    "typeRoots": ["node_modules/@types", "@dcloudio/types", "@uni-helper/uni-app-types"],
     "allowJs": true
   },
   "include": ["vite.config.*", "src/**/*.ts", "src/**/*.vue"]

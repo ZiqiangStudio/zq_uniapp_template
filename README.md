@@ -21,6 +21,6 @@
 - `build` 打包项目至 `dist/build/mp-weixin`
 - `lint` 检查代码是否符合规范
 - `lint --fix` 检查代码是否符合规范，并自动修复
+- `update:uni` 使用 uvm 自动更新本地 uni-app 编译器版本
 
-
-*对本模板有任何问题或者建议可以通过 issue、email、钉钉、QQ 联系我*
+_对本模板有任何问题或者建议可以通过 issue、email、钉钉、QQ 联系我_
