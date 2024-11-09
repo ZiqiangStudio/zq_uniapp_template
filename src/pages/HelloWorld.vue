@@ -13,6 +13,10 @@
 import { ref } from 'vue';
 
 const title = ref('Hello');
+
+uni.showToast({
+  title: 'Toast',
+});
 </script>
 
 <style>
