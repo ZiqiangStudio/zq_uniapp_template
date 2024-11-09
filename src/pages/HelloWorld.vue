@@ -16,7 +16,11 @@ export default {
       title: 'Hello',
     };
   },
-  onLoad() {},
+  onLoad() {
+    uni.showToast({
+      title: 'Toast'
+    });
+  },
   methods: {},
 };
 </script>
